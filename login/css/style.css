@@ -1,0 +1,54 @@
+
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            background-color: rgb(240, 246, 255);
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 150px;
+        }
+
+        h1 {
+            color: rgba(0, 26, 255, 0.219);
+            background-color: rgba(196, 231, 255, 0.404);
+            font-family: 'Courier New', Courier, monospace;
+            padding: 10px;
+        }
+        label {
+            background-color: rgba(196, 231, 255, 0.404);
+            font-size: 20px;
+        }
+        input {
+            background-color: rgba(196, 231, 255, 0.986);
+            font-size: 20px;
+        }
+        #username {
+            font-style: italic;
+        }
+        #password{
+            font-style: oblique;
+        }
+        #gender{
+            font-family: 'Courier New', Courier, monospace;
+        }
+        select{
+            color: black;
+            background-color: rgba(196, 231, 255, 0.986);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        form {
+            width: 400px;
+            background-color: rgba(21, 116, 204, 0.555);
+            padding: 20px;
+            border-radius: 5px;
+        
+        }
+        button{
+            background-color: rgba(0, 132, 255, 0.253);
+            padding: 10px;
+            border-radius: 10px;
+            font-size: large;
+            width: 100px;
+            font-family: 'Courier New', Courier, monospace;
+        }
