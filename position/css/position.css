@@ -1,0 +1,62 @@
+.static {
+    position: static;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(34, 235, 202, 0.39);
+    color: rgb(14, 15, 15);
+    margin: 5px;
+    padding: 10px;
+    border: 5px solid rgb(37, 192, 212);
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.relative {
+    position: relative;
+    left: 50px;
+    top: 100px;
+    background-color: rgba(34, 235, 202, 0.39) ;
+    color: rgb(14, 15, 15) ;
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid rgb(37, 192, 212) ;
+}
+
+.absolute {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(34, 235, 202, 0.39) ;
+    color: rgb(14, 15, 15) ;
+    padding: 10%;
+    border: 5px solid rgb(37, 192, 212) ;
+}
+
+.fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: rgb(34, 235, 202) ;
+    color: rgb(14, 15, 15) ;
+    padding: 10px;
+    border: 5px solid rgb(0, 0, 0) ;
+
+}
+
+.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 100px;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    background-color: rgb(34, 235, 202) ;
+    color: rgb(14, 15, 15) ;
+    padding: 5px;
+    border: 5px solid rgb(0, 0, 0) ;
+
+}
