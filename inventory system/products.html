@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>INVENTORY</title>
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .text-container {
+  margin-top: 10px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 900px; 
+  
+}
+
+.add-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #161a2d; 
+  color: white;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.add-button:hover {
+  background-color: #4f52ba; 
+}
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr); 
+      grid-template-rows: repeat(6, auto); 
+      gap: 30px; 
+      padding: 50px; 
+      margin-top: auto;
+    }
+    
+    .grid-item {
+      background-color: #f0f0f088;
+      padding: 10px;
+      border: 1px solid silver;
+      border-radius: 4px;
+      text-align: center;
+    }
+    
+    
+  </style>
+</head>
+<body>
+  
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <img src="images/logo.jpg" alt="logo" />
+      <h2>FGT</h2>
+    </div>
+    <ul class="sidebar-links">
+      <h4>
+        <span>Main Menu</span>
+        <div class="menu-separator"></div>
+      </h4>
+      <li>
+        <a href="#">
+          <span class="material-symbols-outlined"> category </span>
+          Items
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span class="material-symbols-outlined"> point_of_sale </span>
+          Sales
+        </a>
+      </li>
+      <h4>
+        <span>General</span>
+        <div class="menu-separator"></div>
+      </h4>
+      
+      <li>
+        <a href="#">
+          <span class="material-symbols-outlined"> logout </span>
+          Logout
+        </a>
+      </li>
+    </ul>
+    <div class="user-account">
+      <div class="user-profile">
+        <img src="images/fritz.jpg" alt="Profile Image" />
+        <div class="user-detail">
+          <h3>FRITZ TACANAY</h3>
+          <span>BSIT 2A</span>
+        </div>
+      </div>
+    </div>
+  </aside>
+  
+  <div class="topbar">
+    <h2>INVENTORY SYSTEM</h2>
+    <input type="text" placeholder="Search...">
+    <button type="button" class="login">Login</button>
+    <button type="button" class="upload">Upload</button>
+  </div>
+  <div class="grid-container">
+    <div class="grid-item"><h3>ID</h3></div>
+    <div class="grid-item"><h3>NAME</h3></div>
+    <div class="grid-item"><h3>QUANTITY</h3></div>
+    <div class="grid-item"><h3>PRICE</h3></div>
+    <div class="grid-item"><h3>UNIT</h3></div>
+    <div class="grid-item">001</div>
+    <div class="grid-item">BRACELET</div>
+    <div class="grid-item">20</div>
+    <div class="grid-item">9999</div>
+    <div class="grid-item">5</div>
+    <div class="grid-item">002</div>
+    <div class="grid-item">NECKLACE</div>
+    <div class="grid-item">15</div>
+    <div class="grid-item">8999</div>
+    <div class="grid-item">7</div>
+    <div class="grid-item">003</div>
+    <div class="grid-item">EARRINGS</div>
+    <div class="grid-item">7</div>
+    <div class="grid-item">5999</div>
+    <div class="grid-item">2</div>
+    <div class="grid-item">004</div>
+    <div class="grid-item">RING</div>
+    <div class="grid-item">3</div>
+    <div class="grid-item">4999</div>
+    <div class="grid-item">6</div>
+  </div>
+  <div class="text-container">
+    <h2>Product Lists</h2>
+    <button type="button" class="add-button">+ Add</button>
+  </div>
+</body>
+</html>
